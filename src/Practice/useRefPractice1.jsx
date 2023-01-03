@@ -3,6 +3,8 @@ import { useRef } from "react";
 function useRefPractice1() {
   const inputRef = useRef();
 
+  // commit 1
+
   const onSubmit = e => {
     e.preventDefault();
     console.log(123);
