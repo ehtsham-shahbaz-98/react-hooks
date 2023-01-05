@@ -4,8 +4,6 @@ function useRefPractice1() {
   const inputRef = useRef();
 
   // commit 1
-  // commit 2
-  // commit 3
 
   const onSubmit = e => {
     e.preventDefault();
