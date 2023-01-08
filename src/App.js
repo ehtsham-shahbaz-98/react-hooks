@@ -7,7 +7,7 @@ import UseMemoExample from "./components/UseMemoExample";
 import UseCallbackExample from "./components/UseCallbackExample";
 import CustomHookExample1 from "./components/CustomHookExample1";
 import CustomHookExample2 from "./components/CustomHookExample2";
-import useRefPractice1 from "./Practice/useRefPractice1";
+import UseRefPracticeFirst from "./Practice/UseRefPracticeFirst";
 
 // 1st Jan 3rd Commit
 
@@ -32,7 +32,7 @@ function App() {
           />
           <Route
             path="/practice"
-            element={<useRefPractice1 />}
+            element={<UseRefPracticeFirst />}
           />
         </Routes>
       </div>

@@ -1,6 +1,6 @@
 import { useRef } from "react";
 
-function useRefPractice1() {
+function UseRefPracticeFirst() {
   const inputRef = useRef();
 
   // commit 1
@@ -9,7 +9,7 @@ function useRefPractice1() {
 
   const onSubmit = e => {
     e.preventDefault();
-    console.log(123);
+    console.log(inputRef.current.value);
   }
 
   return (
@@ -28,4 +28,4 @@ function useRefPractice1() {
   );
 }
 
-export default useRefPractice1;
+export default UseRefPracticeFirst;
