@@ -7,7 +7,6 @@ function UseRefPracticeFirst() {
   // commit 2
   // commit 3
   // commit 4
-  // commit 5
 
   const onSubmit = e => {
     e.preventDefault();
